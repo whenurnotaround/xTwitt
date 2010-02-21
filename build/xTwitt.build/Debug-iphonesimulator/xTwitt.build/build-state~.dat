@@ -1,0 +1,245 @@
+TxTwitt
+v7
+r0
+t288435107.039923
+cCheck dependencies
+cProcessInfoPlistFile /Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/build/Debug-iphonesimulator/xTwitt.app/Info.plist xTwitt-Info.plist
+cCompileXIB /Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/MainWindow.xib
+cCompileXIB /Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/xTwittViewController.xib
+cProcessPCH /var/folders/pX/pX8zyeLYHJ4HW+801bRceE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/xTwitt_Prefix-abfazgcgdnwtojbtloizaipnkwil/xTwitt_Prefix.pch.gch xTwitt_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/xTwitt.build/Debug-iphonesimulator/xTwitt.build/Objects-normal/i386/main.o /Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/xTwitt.build/Debug-iphonesimulator/xTwitt.build/Objects-normal/i386/xTwittAppDelegate.o /Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/xTwitt.build/Debug-iphonesimulator/xTwitt.build/Objects-normal/i386/xTwittViewController.o /Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk
+c000000004B62DABA0000000000000110
+t1264769722
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004B567172000000000026F020
+t1263956338
+s2551840
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004B56718B0000000000288B20
+t1263956363
+s2657056
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B56717E0000000000001355
+t1263956350
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004B56A2960000000000000970
+t1263968918
+s2416
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004B56A324000000000211C6C0
+t1263969060
+s34719424
+
+N/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittAppDelegate.h
+c000000004B80F1BD00000000000001D3
+t1266741693
+s467
+i<UIKit/UIKit.h>
+
+N/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittAppDelegate.m
+c000000004B80F1BD0000000000000298
+t1266741693
+s664
+i"xTwittAppDelegate.h"
+i"xTwittViewController.h"
+
+N/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittViewController.h
+c000000004B80F4000000000000000198
+t1266742272
+s408
+i<UIKit/UIKit.h>
+
+N/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittViewController.m
+c000000004B80F4210000000000000615
+t1266742305
+s1557
+i"xTwittViewController.h"
+
+N/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/MainWindow.xib
+c000000004B80F1BD000000000000264B
+t1266741693
+s9803
+
+N/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/build/Debug-iphonesimulator/xTwitt.app
+t2
+s0
+
+N/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/build/Debug-iphonesimulator/xTwitt.app.dSYM
+t2
+s0
+
+N/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/build/Debug-iphonesimulator/xTwitt.app/Info.plist
+t1266742305
+s587
+
+N/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/build/Debug-iphonesimulator/xTwitt.app/MainWindow.nib
+t1266742306
+s1091
+
+N/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/build/Debug-iphonesimulator/xTwitt.app/PkgInfo
+t1266742305
+s8
+
+N/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/build/Debug-iphonesimulator/xTwitt.app/xTwitt
+t2
+s0
+
+N/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/build/Debug-iphonesimulator/xTwitt.app/xTwittViewController.nib
+t1266742306
+s800
+
+N/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/build/xTwitt.build/Debug-iphonesimulator/xTwitt.build/Objects-normal/i386/main.o
+t1266742306
+s5980
+
+N/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/build/xTwitt.build/Debug-iphonesimulator/xTwitt.build/Objects-normal/i386/xTwitt.LinkFileList
+c000000004B80F42100000000000001BB
+t1266742305
+s443
+
+N/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/build/xTwitt.build/Debug-iphonesimulator/xTwitt.build/Objects-normal/i386/xTwittAppDelegate.o
+t2
+s0
+
+N/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/build/xTwitt.build/Debug-iphonesimulator/xTwitt.build/Objects-normal/i386/xTwittViewController.o
+t2
+s0
+
+N/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/main.m
+c000000004B80F1BD0000000000000162
+t1266741693
+s354
+i<UIKit/UIKit.h>
+
+N/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/xTwittViewController.xib
+c000000004B80F1BD0000000000001A41
+t1266741693
+s6721
+
+N/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/xTwitt_Prefix.pch
+c000000004B80F1BD00000000000000B5
+t1266741693
+s181
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/var/folders/pX/pX8zyeLYHJ4HW+801bRceE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/xTwitt_Prefix-abfazgcgdnwtojbtloizaipnkwil/xTwitt_Prefix.pch.gch
+t1266742306
+s13719376
+
+NxTwitt-Info.plist
+c000000004B80F1BD000000000000038D
+t1266741693
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies288435105#288435105#0(0"0(0#1#0"7947009927035180032#0"0#
+
+CCompileC build/xTwitt.build/Debug-iphonesimulator/xTwitt.build/Objects-normal/i386/main.o /Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s288435106.919999
+e288435106.991043
+r1
+xCompileC
+xbuild/xTwitt.build/Debug-iphonesimulator/xTwitt.build/Objects-normal/i386/main.o
+x/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/main.m288435106#288435106#0(0"0(0#0#63"/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/main.m4300903632#2035"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/build/xTwitt.build/Debug-iphonesimulator/xTwitt.build/xTwitt-generated-files.hmap -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/build/xTwitt.build/Debug-iphonesimulator/xTwitt.build/xTwitt-own-target-headers.hmap -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/build/xTwitt.build/Debug-iphonesimulator/xTwitt.build/xTwitt-all-target-headers.hmap -iquote /Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/build/xTwitt.build/Debug-iphonesimulator/xTwitt.build/xTwitt-project-headers.hmap -F/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/build/Debug-iphonesimulator -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/build/Debug-iphonesimulator/include -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/build/xTwitt.build/Debug-iphonesimulator/xTwitt.build/DerivedSources/i386 -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/build/xTwitt.build/Debug-iphonesimulator/xTwitt.build/DerivedSources -include /var/folders/pX/pX8zyeLYHJ4HW+801bRceE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/xTwitt_Prefix-abfazgcgdnwtojbtloizaipnkwil/xTwitt_Prefix.pch -c /Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/main.m -o /Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/build/xTwitt.build/Debug-iphonesimulator/xTwitt.build/Objects-normal/i386/main.o0#
+
+CCompileC build/xTwitt.build/Debug-iphonesimulator/xTwitt.build/Objects-normal/i386/xTwittAppDelegate.o /Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s288435106.921601
+e288435107.010582
+r0
+xCompileC
+xbuild/xTwitt.build/Debug-iphonesimulator/xTwitt.build/Objects-normal/i386/xTwittAppDelegate.o
+x/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittAppDelegate.m:10:
+o/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittViewController.h:17: error: assign, retain and copy are mutually exclusive
+o/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittViewController.h:17: warning: assign attribute (default) not appropriate for non-gc object property 'username'
+o/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittViewController.h:18: error: assign, retain and copy are mutually exclusive
+o/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittViewController.h:18: warning: assign attribute (default) not appropriate for non-gc object property 'password'
+lSLF07#2@92"Compile /Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittAppDelegate.m288435106#288435107#0(767"In file included from /Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittAppDelegate.m:10:/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittViewController.h:17: error: assign, retain and copy are mutually exclusive/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittViewController.h:17: warning: assign attribute (default) not appropriate for non-gc object property 'username'/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittViewController.h:18: error: assign, retain and copy are mutually exclusive/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittViewController.h:18: warning: assign attribute (default) not appropriate for non-gc object property 'password'4(4@46"Assign, retain and copy are mutually exclusive288435106#111#146#2(7@106"In file included from /Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittAppDelegate.m288435106#18446744073709551615#0#0(6@84"/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittAppDelegate.m288434493#10#0#10#0#0"0(13@137"Assign, retain and copy are mutually exclusive in /Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittViewController.h288435106#18446744073709551615#0#0(6@87"/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittViewController.h288435072#17#0#17#0#0"0(6@87"/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittViewController.h288435072#17#0#17#0#0"0(22@80"Assign attribute (default) not appropriate for non-gc object property 'username'288435106#257#182#2(7@106"In file included from /Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittAppDelegate.m288435106#18446744073709551615#0#0(6@84"/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittAppDelegate.m288434493#10#0#10#0#0"0(13@171"Assign attribute (default) not appropriate for non-gc object property 'username' in /Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittViewController.h288435106#18446744073709551615#0#0(6@87"/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittViewController.h288435072#17#0#17#0#0"0(6@87"/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittViewController.h288435072#17#0#17#0#0"0(4@46"Assign, retain and copy are mutually exclusive288435106#439#146#2(7@106"In file included from /Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittAppDelegate.m288435106#18446744073709551615#0#0(6@84"/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittAppDelegate.m288434493#10#0#10#0#0"0(13@137"Assign, retain and copy are mutually exclusive in /Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittViewController.h288435106#18446744073709551615#0#0(6@87"/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittViewController.h288435072#18#0#18#0#0"0(6@87"/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittViewController.h288435072#18#0#18#0#0"0(22@80"Assign attribute (default) not appropriate for non-gc object property 'password'288435106#585#182#2(7@106"In file included from /Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittAppDelegate.m288435106#18446744073709551615#0#0(6@84"/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittAppDelegate.m288434493#10#0#10#0#0"0(13@171"Assign attribute (default) not appropriate for non-gc object property 'password' in /Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittViewController.h288435106#18446744073709551615#0#0(6@87"/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittViewController.h288435072#18#0#18#0#0"0(6@87"/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittViewController.h288435072#18#0#18#0#0"0(0#0#84"/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittAppDelegate.m4300903632#2069"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/build/xTwitt.build/Debug-iphonesimulator/xTwitt.build/xTwitt-generated-files.hmap -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/build/xTwitt.build/Debug-iphonesimulator/xTwitt.build/xTwitt-own-target-headers.hmap -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/build/xTwitt.build/Debug-iphonesimulator/xTwitt.build/xTwitt-all-target-headers.hmap -iquote /Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/build/xTwitt.build/Debug-iphonesimulator/xTwitt.build/xTwitt-project-headers.hmap -F/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/build/Debug-iphonesimulator -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/build/Debug-iphonesimulator/include -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/build/xTwitt.build/Debug-iphonesimulator/xTwitt.build/DerivedSources/i386 -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/build/xTwitt.build/Debug-iphonesimulator/xTwitt.build/DerivedSources -include /var/folders/pX/pX8zyeLYHJ4HW+801bRceE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/xTwitt_Prefix-abfazgcgdnwtojbtloizaipnkwil/xTwitt_Prefix.pch -c /Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittAppDelegate.m -o /Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/build/xTwitt.build/Debug-iphonesimulator/xTwitt.build/Objects-normal/i386/xTwittAppDelegate.o1#
+
+CCompileC build/xTwitt.build/Debug-iphonesimulator/xTwitt.build/Objects-normal/i386/xTwittViewController.o /Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s288435106.991152
+e288435107.039747
+r0
+xCompileC
+xbuild/xTwitt.build/Debug-iphonesimulator/xTwitt.build/Objects-normal/i386/xTwittViewController.o
+x/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittViewController.m:9:
+o/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittViewController.h:17: error: assign, retain and copy are mutually exclusive
+o/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittViewController.h:17: warning: assign attribute (default) not appropriate for non-gc object property 'username'
+o/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittViewController.h:18: error: assign, retain and copy are mutually exclusive
+o/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittViewController.h:18: warning: assign attribute (default) not appropriate for non-gc object property 'password'
+lSLF07#2@95"Compile /Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittViewController.m288435106#288435107#0(769"In file included from /Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittViewController.m:9:/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittViewController.h:17: error: assign, retain and copy are mutually exclusive/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittViewController.h:17: warning: assign attribute (default) not appropriate for non-gc object property 'username'/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittViewController.h:18: error: assign, retain and copy are mutually exclusive/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittViewController.h:18: warning: assign attribute (default) not appropriate for non-gc object property 'password'4(4@46"Assign, retain and copy are mutually exclusive288435107#113#146#2(7@109"In file included from /Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittViewController.m288435107#18446744073709551615#0#0(6@87"/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittViewController.m288435105#9#0#9#0#0"0(13@137"Assign, retain and copy are mutually exclusive in /Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittViewController.h288435107#18446744073709551615#0#0(6@87"/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittViewController.h288435072#17#0#17#0#0"0(6@87"/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittViewController.h288435072#17#0#17#0#0"0(22@80"Assign attribute (default) not appropriate for non-gc object property 'username'288435107#259#182#2(7@109"In file included from /Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittViewController.m288435107#18446744073709551615#0#0(6@87"/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittViewController.m288435105#9#0#9#0#0"0(13@171"Assign attribute (default) not appropriate for non-gc object property 'username' in /Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittViewController.h288435107#18446744073709551615#0#0(6@87"/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittViewController.h288435072#17#0#17#0#0"0(6@87"/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittViewController.h288435072#17#0#17#0#0"0(4@46"Assign, retain and copy are mutually exclusive288435107#441#146#2(7@109"In file included from /Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittViewController.m288435107#18446744073709551615#0#0(6@87"/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittViewController.m288435105#9#0#9#0#0"0(13@137"Assign, retain and copy are mutually exclusive in /Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittViewController.h288435107#18446744073709551615#0#0(6@87"/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittViewController.h288435072#18#0#18#0#0"0(6@87"/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittViewController.h288435072#18#0#18#0#0"0(22@80"Assign attribute (default) not appropriate for non-gc object property 'password'288435107#587#182#2(7@109"In file included from /Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittViewController.m288435107#18446744073709551615#0#0(6@87"/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittViewController.m288435105#9#0#9#0#0"0(13@171"Assign attribute (default) not appropriate for non-gc object property 'password' in /Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittViewController.h288435107#18446744073709551615#0#0(6@87"/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittViewController.h288435072#18#0#18#0#0"0(6@87"/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittViewController.h288435072#18#0#18#0#0"0(0#0#87"/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittViewController.m4300903632#2075"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/build/xTwitt.build/Debug-iphonesimulator/xTwitt.build/xTwitt-generated-files.hmap -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/build/xTwitt.build/Debug-iphonesimulator/xTwitt.build/xTwitt-own-target-headers.hmap -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/build/xTwitt.build/Debug-iphonesimulator/xTwitt.build/xTwitt-all-target-headers.hmap -iquote /Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/build/xTwitt.build/Debug-iphonesimulator/xTwitt.build/xTwitt-project-headers.hmap -F/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/build/Debug-iphonesimulator -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/build/Debug-iphonesimulator/include -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/build/xTwitt.build/Debug-iphonesimulator/xTwitt.build/DerivedSources/i386 -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/build/xTwitt.build/Debug-iphonesimulator/xTwitt.build/DerivedSources -include /var/folders/pX/pX8zyeLYHJ4HW+801bRceE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/xTwitt_Prefix-abfazgcgdnwtojbtloizaipnkwil/xTwitt_Prefix.pch -c /Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittViewController.m -o /Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/build/xTwitt.build/Debug-iphonesimulator/xTwitt.build/Objects-normal/i386/xTwittViewController.o1#
+
+CCompileXIB /Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/MainWindow.xib
+s288435105.782235
+e288435106.138074
+r1
+xCompileXIB
+x/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib288435105#288435106#0(0"0(0#0#71"/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/MainWindow.xib4300903632#533"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/build/Debug-iphonesimulator/xTwitt.app/MainWindow.nib /Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/MainWindow.xib0#
+
+CCompileXIB /Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/xTwittViewController.xib
+s288435105.786783
+e288435106.072140
+r1
+xCompileXIB
+x/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/xTwittViewController.xib
+lSLF07#2@35"CompileXIB xTwittViewController.xib288435105#288435106#0(0"0(0#0#81"/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/xTwittViewController.xib4300903632#553"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/build/Debug-iphonesimulator/xTwitt.app/xTwittViewController.nib /Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/xTwittViewController.xib0#
+
+CGenerateDSYMFile /Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/build/Debug-iphonesimulator/xTwitt.app.dSYM /Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/build/Debug-iphonesimulator/xTwitt.app/xTwitt
+r0
+
+CLd /Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/build/Debug-iphonesimulator/xTwitt.app/xTwitt normal i386
+r0
+
+CProcessInfoPlistFile /Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/build/Debug-iphonesimulator/xTwitt.app/Info.plist xTwitt-Info.plist
+s288435105.760784
+e288435105.782144
+r1
+xProcessInfoPlistFile
+x/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/build/Debug-iphonesimulator/xTwitt.app/Info.plist
+xxTwitt-Info.plist
+lSLF07#2@25"Process xTwitt-Info.plist288435105#288435105#0(0"0(0#0#74"/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/xTwitt-Info.plist31244220637446252#530"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility xTwitt-Info.plist -genpkginfo /Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/build/Debug-iphonesimulator/xTwitt.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/build/Debug-iphonesimulator/xTwitt.app/Info.plist0#
+
+CProcessPCH /var/folders/pX/pX8zyeLYHJ4HW+801bRceE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/xTwitt_Prefix-abfazgcgdnwtojbtloizaipnkwil/xTwitt_Prefix.pch.gch xTwitt_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s288435106.138205
+e288435106.919882
+r1
+xProcessPCH
+x/var/folders/pX/pX8zyeLYHJ4HW+801bRceE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/xTwitt_Prefix-abfazgcgdnwtojbtloizaipnkwil/xTwitt_Prefix.pch.gch
+xxTwitt_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile xTwitt_Prefix.pch288435106#288435106#0(0"0(0#0#74"/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/xTwitt_Prefix.pch4300903632#1910"    cd /Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/build/xTwitt.build/Debug-iphonesimulator/xTwitt.build/xTwitt-generated-files.hmap -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/build/xTwitt.build/Debug-iphonesimulator/xTwitt.build/xTwitt-own-target-headers.hmap -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/build/xTwitt.build/Debug-iphonesimulator/xTwitt.build/xTwitt-all-target-headers.hmap -iquote /Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/build/xTwitt.build/Debug-iphonesimulator/xTwitt.build/xTwitt-project-headers.hmap -F/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/build/Debug-iphonesimulator -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/build/Debug-iphonesimulator/include -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/build/xTwitt.build/Debug-iphonesimulator/xTwitt.build/DerivedSources/i386 -I/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/build/xTwitt.build/Debug-iphonesimulator/xTwitt.build/DerivedSources -c /Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/xTwitt_Prefix.pch -o /var/folders/pX/pX8zyeLYHJ4HW+801bRceE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/xTwitt_Prefix-abfazgcgdnwtojbtloizaipnkwil/xTwitt_Prefix.pch.gch0#
+
+CTouch /Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/build/Debug-iphonesimulator/xTwitt.app
+r0
+
