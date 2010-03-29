@@ -1,5 +1,5 @@
 /Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittViewController.m: In function '-[xTwittViewController imageReceived:forRequest:]':
-/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittViewController.m:135: warning: 'UIImage' may not respond to '-TIFFRepresentation'
-/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittViewController.m:135: warning: (Messages without a matching method signature
-/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittViewController.m:135: warning: will be assumed to return 'id' and accept
-/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittViewController.m:135: warning: '...' as arguments.)
+/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittViewController.m:209: warning: 'UIImage' may not respond to '-TIFFRepresentation'
+/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittViewController.m:209: warning: (Messages without a matching method signature
+/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittViewController.m:209: warning: will be assumed to return 'id' and accept
+/Users/whenurnotaround/Documents/WorkSpace/iPhone/xTwitt/Classes/xTwittViewController.m:209: warning: '...' as arguments.)

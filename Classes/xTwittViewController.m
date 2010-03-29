@@ -12,19 +12,79 @@
 
 @synthesize username;
 @synthesize password;
+@synthesize table;
+@synthesize listData;
 
 -(IBAction)login {
 	NSLog(@"login with username %@ and password %@", username.text, password.text);
 	
-	//NSLog(@"username = %@", usernamee);
+	NSLog(@"username = %@", username.text);
 	
 	twitterEngine = [[MGTwitterEngine alloc] initWithDelegate:self];
     [twitterEngine setUsername:username.text password:password.text];
 	
-	NSLog(@"getPublicTimelineSinceID: connectionIdentifier = %@", [twitterEngine getPublicTimeline]);
+	//NSLog(@"getPublicTimelineSinceID: connectionIdentifier = %@", [twitterEngine getPublicTimeline]);
+	//NSLog(@"getUserTimelineFor: connectionIdentifier = %@", [twitterEngine getFollowedTimelineSinceID:0 startingAtPage:0 count:20]);
 	
 }
 
+#pragma mark Table View Data Source Methods
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+	NSLog(@"table has %i rows", [self.listData count]);
+	return [self.listData count];
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+	static NSString *CellTableIdentifier = @"CellTableIdentifier";
+	
+	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellTableIdentifier];
+	
+	if (cell == nil) {
+		cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellTableIdentifier] autorelease];
+		
+	}
+	
+	NSUInteger row = [indexPath row];
+	NSString *image_path = [[[self.listData objectAtIndex:row] objectForKey:@"user"] objectForKey:@"profile_image_url"];
+	
+	NSURL *url = [NSURL URLWithString:image_path];
+	NSData *data = [NSData dataWithContentsOfURL:url];
+	UIImage *image = [[UIImage alloc] initWithData:data];
+	cell.imageView.image = image;
+	cell.textLabel.text = [[[self.listData objectAtIndex:row] objectForKey:@"user"] objectForKey:@"name"];
+	cell.textLabel.font = [UIFont boldSystemFontOfSize:12];
+	cell.detailTextLabel.text = [[self.listData objectAtIndex:row] objectForKey:@"text"];
+	
+	return cell;
+																							
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+	return 80;
+}
+
+- (NSIndexPath *)tableView:(UITableView *)tableView willSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+	NSUInteger row = [indexPath row];
+	
+	if (row == 0) {
+		return nil;
+	}
+	
+	return indexPath;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+	NSUInteger row = [indexPath row];
+	NSString *message = [[self.listData objectAtIndex:row] objectForKey:@"text"];
+	
+	UIAlertView *alert = [[UIAlertView alloc] initWithTitle:[[[self.listData objectAtIndex:row] objectForKey:@"user"] objectForKey:@"name"] message:message delegate:nil cancelButtonTitle:@"Close" otherButtonTitles:nil];
+	[alert show];
+	
+	[message release];
+	[alert release];
+	[tableView deselectRowAtIndexPath:indexPath animated:YES];
+}
 /*
 // The designated initializer. Override to perform setup that is required before the view is loaded.
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
@@ -41,12 +101,19 @@
 }
 */
 
-
+#pragma mark system
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
 	NSLog(@"Start xTwitt");
+	
+	twitterEngine = [[MGTwitterEngine alloc] initWithDelegate:self];
+    [twitterEngine setUsername:@"whenurnotaround" password:@"redpig6"];
+	NSLog(@"getUserTimelineFor: connectionIdentifier = %@", [twitterEngine getFollowedTimelineSinceID:0 startingAtPage:0 count:20]);
+
+	
+	
 }
 
 
@@ -69,10 +136,12 @@
 - (void)viewDidUnload {
 	// Release any retained subviews of the main view.
 	// e.g. self.myOutlet = nil;
+	self.listData = nil;
 }
 
 
 - (void)dealloc {
+	[listData release];
     [twitterEngine release];
 	[super dealloc];
 	
@@ -98,7 +167,13 @@
 
 - (void)statusesReceived:(NSArray *)statuses forRequest:(NSString *)connectionIdentifier
 {
-    NSLog(@"Got statuses for %@:\r%@", connectionIdentifier, statuses);
+    NSLog(@"Got statuses for %@:\r%@", connectionIdentifier, [statuses objectAtIndex:2]);
+	
+	self.listData = statuses;
+	NSLog(@">>> %i", [self.listData count]);
+	[table reloadData];
+	
+	
 }
 
 

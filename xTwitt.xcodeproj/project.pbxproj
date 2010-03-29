@@ -35,9 +35,9 @@
 		FB17289F11312C77000C3788 /* MGTwitterSearchYAJLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = FB17288811312C76000C3788 /* MGTwitterSearchYAJLParser.m */; };
 		FB1728A011312C77000C3788 /* NSString+UUID.m in Sources */ = {isa = PBXBuildFile; fileRef = FB17288B11312C76000C3788 /* NSString+UUID.m */; };
 		FB1728A111312C77000C3788 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = FB17288D11312C76000C3788 /* NSData+Base64.m */; };
-		FB1728A611312CA4000C3788 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FB1728A511312CA4000C3788 /* libxml2.dylib */; };
 		FB1728AA11312CBE000C3788 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FB1728A911312CBE000C3788 /* libxml2.dylib */; };
-		FB1728B4113132D6000C3788 /* libYAJLIPhone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB1728B3113132D6000C3788 /* libYAJLIPhone.a */; };
+		FB912C351134EBE400179A34 /* libYAJLIPhone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB912C341134EBE400179A34 /* libYAJLIPhone.a */; };
+		FBBB32B31160635E00CE54A5 /* Readme.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FBBB32B21160635E00CE54A5 /* Readme.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -98,9 +98,9 @@
 		FB17288B11312C76000C3788 /* NSString+UUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+UUID.m"; sourceTree = "<group>"; };
 		FB17288C11312C76000C3788 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
 		FB17288D11312C76000C3788 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
-		FB1728A511312CA4000C3788 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		FB1728A911312CBE000C3788 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
-		FB1728B3113132D6000C3788 /* libYAJLIPhone.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libYAJLIPhone.a; path = "../../../../Downloads/libYAJLIPhone-0.2.2/libYAJLIPhone.a"; sourceTree = SOURCE_ROOT; };
+		FB912C341134EBE400179A34 /* libYAJLIPhone.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libYAJLIPhone.a; sourceTree = "<group>"; };
+		FBBB32B21160635E00CE54A5 /* Readme.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Readme.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,9 +111,8 @@
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
-				FB1728A611312CA4000C3788 /* libxml2.dylib in Frameworks */,
 				FB1728AA11312CBE000C3788 /* libxml2.dylib in Frameworks */,
-				FB1728B4113132D6000C3788 /* libYAJLIPhone.a in Frameworks */,
+				FB912C351134EBE400179A34 /* libYAJLIPhone.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,7 +173,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FB1728B3113132D6000C3788 /* libYAJLIPhone.a */,
+				FB912C341134EBE400179A34 /* libYAJLIPhone.a */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
@@ -198,6 +197,7 @@
 				FB17286311312C76000C3788 /* MGTwitterHTTPURLConnection.m */,
 				FB17286411312C76000C3788 /* MGTwitterRequestTypes.h */,
 				FB17286511312C76000C3788 /* MGTwitterParserDelegate.h */,
+				FBBB32B21160635E00CE54A5 /* Readme.rtf */,
 			);
 			name = MATwitterEngine;
 			sourceTree = "<group>";
@@ -310,6 +310,7 @@
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				2899E5220DE3E06400AC0155 /* xTwittViewController.xib in Resources */,
+				FBBB32B31160635E00CE54A5 /* Readme.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +363,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../../../Downloads/libYAJLIPhone-0.2.2\"",
+					"\"$(SRCROOT)\"",
 				);
 				PRODUCT_NAME = xTwitt;
 			};
@@ -378,6 +380,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../../../Downloads/libYAJLIPhone-0.2.2\"",
+					"\"$(SRCROOT)\"",
 				);
 				PRODUCT_NAME = xTwitt;
 				VALIDATE_PRODUCT = YES;
@@ -397,7 +400,7 @@
 					$SDKROOT/usr/include/libxml2,
 				);
 				PREBINDING = NO;
-				SDKROOT = iphoneos3.2;
+				SDKROOT = iphonesimulator3.1;
 			};
 			name = Debug;
 		};
@@ -410,7 +413,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
-				SDKROOT = iphoneos3.2;
+				SDKROOT = iphonesimulator3.1;
 			};
 			name = Release;
 		};

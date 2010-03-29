@@ -9,16 +9,19 @@
 #import <UIKit/UIKit.h>
 #import "MGTwitterEngine.h"
 
-@interface xTwittViewController : UIViewController <MGTwitterEngineDelegate> {
+@interface xTwittViewController : UIViewController <MGTwitterEngineDelegate, UITableViewDelegate, UITableViewDataSource> {
 	
 	IBOutlet UITextField *username;
 	IBOutlet UITextField *password;
-	
+	IBOutlet UITableView *table;
+	NSArray *listData;
 	MGTwitterEngine *twitterEngine;
 
 }
 @property(nonatomic, retain) UITextField *username;
 @property(nonatomic, retain) UITextField *password;
+@property(nonatomic, retain) UITableView *table;
+@property(nonatomic, retain) NSArray *listData;
 
 -(IBAction)login;
 
